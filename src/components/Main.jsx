@@ -10,7 +10,7 @@ const Main = () => {
     if (rating > 0 && rating <= 5) {
       setShowRating(false);
     } else {
-      // alert("Please click rating");
+      alert("Please click rating");
     }
   };
 
